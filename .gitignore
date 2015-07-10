@@ -1,3 +1,3 @@
 # Ignore docs files
-views/sass/styles/.sass-cache
-views/sass/styles/.sass-cache/*
+views/sass/.sass-cache
+views/sass/.sass-cache/*

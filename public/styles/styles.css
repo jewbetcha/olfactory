@@ -1,0 +1,87 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* --- Media Queries -- */
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .stats {
+            font-size: 1.1em;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        .stats {
+            font-size: 1.3em;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .stats {
+            font-size: 1.5em;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+#map {
+    background: #454545;
+}
+
+.section-padding {
+    padding: 40px 0 100px;
+}
+
+.test {
+    height: 800px;
+}
+
+.stat {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stat > h4 {
+    margin-bottom: 0;
+}
+
+.stats {
+    font-weight: 500;
+    color: white;
+}
+
+#why_care {
+    font-family: 'Gotham', 'Raleway', monospace;
+    font-size: 3em;
+    color: #EE534F;
+}
+
+.stats span {
+    font-size: 2.5em;
+    color: #EE534F;
+}
+
+.stats .col-sm-6 {
+    margin: 15px 0 15px 0;
+}
+
+#three {
+    background-color: #729CA4;
+    color: white;
+}
+
+#mapSVG {
+    margin-top: 10px;
+}
